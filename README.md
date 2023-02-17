@@ -25,13 +25,10 @@ Read through the implementation of the functions,
 and make sure you understand how they work.
 Take a guess at which one will be faster,
 and tell the person sitting next to you what your guess is.
-
-<--
    |                        | `str` | `list` | `deque` |
    | ---------------------- | ----- | ------ | ------- |
-   | `check_palindrome_1`   |  O(n) |  O(n)  |  O(n^2)     |
-   | `check_palindrome_2`   |  O(n) |  O(n)  |  O(n)       |
--->
+   | `check_palindrome_1`   |  O(n) |  O(n)  |  O(n^2) |
+   | `check_palindrome_2`   |  O(n) |  O(n)  |  O(n)   |
 
 **Part 1:**
 
