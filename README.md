@@ -26,10 +26,7 @@ and make sure you understand how they work.
 Take a guess at which one will be faster,
 and tell the person sitting next to you what your guess is.
 
-<!--
-   Complete the following table, where each entry is the runtime of the corresponding function when the input `container` is of the corresponding type.
-   Write the runtimes in terms of `n=len(container)` using big-O notation.
-
+<--
    |                        | `str` | `list` | `deque` |
    | ---------------------- | ----- | ------ | ------- |
    | `check_palindrome_1`   |  O(n) |  O(n)  |  O(n^2)     |
