@@ -27,20 +27,15 @@ Take a guess at which one will be faster,
 and tell the person sitting next to you what your guess is.
 
 <!--
-   Complete the following table, where each entry is the runtime of the corresponding function when the input `container` is of the corresponding type.
-   Write the runtimes in terms of `n=len(container)` using big-O notation.
+Complete the following table, where each entry is the runtime of the corresponding function when the input 'container' is of the corresponding type.
+Write the runtimes in terms of 'n=len(container)' using big-O notation.
+  
 
    |                        | `str` | `list` | `deque` |
    | ---------------------- | ----- | ------ | ------- |
-   | `check_palindrome_1`   |  O(n) |        |         |
-   | `check_palindrome_2`   |       |        |         |
-
-   **HINT:**
-   The runtimes for indexing into a string are the same as those for indexing a list, which is O(1).
-   The runtime for indexing into a deque is O(n).
-
-   **HINT:**
-   One of these entries should be asymptotically larger than the others.
+   | `check_palindrome_1`   |  O(1) |  O(1)  |   O(n)  |
+   | `check_palindrome_2`   |  O(1) |  O(1)  |   O(n)  |
+.
 -->
 
 **Part 1:**
