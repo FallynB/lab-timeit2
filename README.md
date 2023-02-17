@@ -33,8 +33,8 @@ Write the runtimes in terms of 'n=len(container)' using big-O notation.
 
    |                        | `str` | `list` | `deque` |
    | ---------------------- | ----- | ------ | ------- |
-   | `check_palindrome_1`   |  O(1) |  O(1)  |   O(n)  |
-   | `check_palindrome_2`   |  O(1) |  O(1)  |   O(n)  |
+   | `check_palindrome_1`   |  O(n) |  O(n)  | O(n)**2  |
+   | `check_palindrome_2`   |  O(n) |  O(n)  | O(n)**2  |
 .
 -->
 
